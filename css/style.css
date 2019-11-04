@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+:root,
+body,
+html {
+    --font-family-sans-serif: "Rubik", sans-serif;
+    font-family: "Rubik", sans-serif;
+    font-size: 10px;
+}
+
+.fonte-nitida {
+    font-weight: normal;
+    font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+        -ms-font-smoothing: antialiased;
+}
+.fonte-nitida-medium {
+    font-weight: 500;
+    font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+        -ms-font-smoothing: antialiased;
+}
+.fonte-12 {
+    font-size: 1.2em;
+}
+.fonte-14 {
+    font-size: 1.4em;
+}
+.fonte-15 {
+    font-size: 1.5em;
+}
+.fonte-16 {
+    font-size: 1.6em;
+}
+.fonte-18 {
+    font-size: 1.8em;
+}
+.fonte-20 {
+    font-size: 2.0em;
+}
+.fonte-22 {
+    font-size: 2.2em;
+}
+.fonte-24 {
+    font-size: 2.4em;
+}
+.fonte-30 {
+    font-size: 3.0em;
+}
+.fonte-34 {
+    font-size: 3.4em;
+}
+.fonte-36 {
+    font-size: 3.6em;
+}
+.fonte-48 {
+    font-size: 4.8em;
+}
+.fonte-54 {
+    font-size: 5.4em;
+}
+.fonte-73 {
+    font-size: 7.3em;
+}
+
+.texto-branco {
+    color: #ffffff !important;
+}
+.texto-vermelho {
+    color: #e46e65;
+}
+.texto-cinza333 {
+    color: #333333;
+}
+.texto-cinza777 {
+    color: #777777;
+}
+.texto-cinza74 {
+    color: #747474;
+}
+.texto-cinzab7 {
+    color: #b7b7b7;
+}
+.bg-vermelho {
+    background-color: #e46e65;
+}
+.bg-vermelho-op70 {
+    background-color: rgba(228,110,101,0.70);
+}
+.bg-cinzaf9 {
+    background-color: #f9f9f9;
+}
+.bg-cinzaE5 {
+    background-color: #e5e5e5;
+}
+.bg-cinza333 {
+    background-color: #333333;
+}
+.bg-branco {
+    background: #ffffff;
+}
+
+.btn-branco {
+    background: #ffffff;
+}
+.btn-branco:hover, 
+.btn-branco:active {
+    background: #333333;
+    color: #FFFFFF
+}
+.btn-vermelho:hover,
+.btn-vermelho:active {
+    background: #1e1e1e;
+    color: #FFFFFF
+}
+
+.b-radius15 {
+    border-radius: 15px;
+}
+.b-radius50 {
+    border-radius: 50px;
+}
+
+#slider .carousel-caption {
+    bottom: 30%;
+}
+
+.py-7 {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important; 
+}
+.px-75 {
+    padding-left: 10% !important;
+    padding-right: 10% !important;  
+}
+
+/* Animação da Seta para Baixo tem que fazer a mesma coisa para os prefixos -ms- -moz- -ms- */
+.ajuste-div {
+    position: relative;
+    top: -54px;
+}
+
+@-webkit-keyframes balancar {
+    from{
+        top: -63px;
+    }
+    to{
+        top: -45px;
+    }
+}
+.iconeAvancar {
+    -webkit-animation: balancar 0.7s linear infinite;
+    position: relative; 
+    font-size: 3.6em;
+}
+.iconeAvancar:hover{
+    text-decoration: none;
+}
+/*Fim da animação*/
+
+.avatar {
+    width: 115px;
+    height: 145px;
+    line-height: 125px;
+}
+
+#testimonial .carousel-indicators {
+    bottom: -30px;
+}
+
+#testimonial  .carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    background-color: #ccc;
+}
+#testimonial  .carousel-indicators .active {
+    background-color: #e46e65;
+}
+
+#testimonial .carousel-control-next, 
+#testimonial .carousel-control-prev {
+     opacity: 1; 
+}
+#testimonial .carousel-control-next-icon, 
+#testimonial .carousel-control-prev-icon {
+    background-color: black;
+    height: 35px;
+}
+
+#price-list .card-title {
+    border-radius: 0px 15px 15px 0!important;
+}
+
+#price-list .btn-posicao {
+    position: relative;
+    top: 27px;
+}
+
+#price-list .list-group-item {
+    background-color: transparent;
+}
+
+#price-list .explode {
+    transform: scale(1.1);
+        -ms-transform: scale(1.1); /* IE 9 */
+        -o-transform: scale(1.1); /* opera */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        -moz-transform: scale(1.1); /* firefox */       
+}
+
+#awesome-app .fa {
+    position: relative;
+    top: 9px;
+}
+
+#our-expart-time .caption-hover {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    height: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 150px 0 10px 0;
+    display: none;
+    cursor: pointer;
+}
+
+#our-expart-time .time:hover .caption-hover {
+    display: block;
+}
+
+#lasted-news .icons span {
+    padding: 0 7px 0 5px;
+}
+
+#contact .form1 textarea {
+    height: 270px;
+    resize: none;
+}
